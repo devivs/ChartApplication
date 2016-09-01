@@ -11,7 +11,7 @@ In the source code, a user defined function called 'buildLine' is used, which pe
 2. Create the axis for the graph with the above scale.
 3. Plot the line with the data in the given scale.
 
-A listener listens for the change in the in the filter whenever a change occurs it captures and call update line functions. The function does same as the building function, the only difference is that the data were given.
+A listener listens for the change in the filter. Whenever a change occurs it captures and call update line functions. The function does same as the building function, the only difference is that the data were given.
 
 ## Quick Start
 
