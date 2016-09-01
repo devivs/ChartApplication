@@ -5,7 +5,8 @@ A line chart application that plots market price of a bitcoin in USD. Daily basi
 X-axis is the date and Y-axis is the USD value. Initially the chart is ploted using the complete data collected from blockcahin.info. When ever the select option changes the chart replotes the data based on the period chosen.
 
 
-In the source code a user defined function called 'buildLine' is used, which performs the following three operations. 
+In the source code a user defined function called 'buildLine' is used, which performs the following three operations.
+
 1. Create a scale to map the domain (min and max values) to the svg canvas range.
 2. Create the axis for the graph with the above scale.
 3. Plot the line with the data in the given scale.
